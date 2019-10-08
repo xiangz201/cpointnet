@@ -4,6 +4,7 @@
 This work is based on [pointnet](https://arxiv.org/abs/1612.00593), [project webpage](http://stanford.edu/~rqi/pointnet) and [hgnn](http://gaoyue.org/paper/HGNN.pdf)，[project webpage](https://github.com/iMoonLab/HGNN)
 ### Framework
 modelnet40 ---->pointnet----->features------>邻接矩阵H------>GCN层D
-                                |                             |
-                                |                             |      
-                                |------------------------------>FC---->predict
+                                I                             I
+                                I                             I
+                                I                             I      
+                                I------------------------------>FC---->predict
